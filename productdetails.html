@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products - MyStore  </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+ <div class="header">
+
+<div class="container">
+<div class="navbar">
+    <div class="logo">
+        <img src="/images/logo.jpeg"  width="100px" alt="logo">
+    </div>
+    <nav>
+        <ul id="menuitems">
+          <li> <a href="index.html">Home</a>  </li>  
+          <li> <a href="product.html"> Products</a>  </li>  
+          <li> <a href="about.html">About </a>  </li>  
+          <li> <a href="contact.html"> Contact </a>  </li>  
+          <li> <a href="account.html"> Account </a>  </li>  
+        </ul>
+    </nav>
+    <img src="images/cart.png" width="30px" height="30px" alt="cart">
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+</div>
+ 
+</div>
+    </div>
+
+
+    <!-- featured categories -->
+<!-- <div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="images/categories1.jpg" alt="pic">
+        </div>
+        <div class="col-3">
+             <img src="images/categories2.jpeg" alt="pic">
+        \</div>
+        <div class="col-3">
+            <img src="images/categories3.jpeg" alt="">
+        </div>
+    </div>
+</div>
+</div> -->
+
+ <!--------- single products details-------------- -->
+<div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/gallery1.jpg" width="100%" id="ProudctImg"  alt="">
+<div class="small-img-row">
+         <div class="small-img-col">
+            <img src="images/gallery2.jpg" width="100%" class="small-img">
+         </div>
+         <div class="small-img-col">
+            <img src="images/gallery3.jpg" class="small-img" width="100%">
+         </div>
+         <div class="small-img-col">
+            <img src="images/gallery4.jpg" class="small-img" width="100%">
+         </div>
+         <div class="small-img-col">
+            <img src="images/gallery5.jpg" class="small-img" width="100%">
+         </div>
+
+        </div>
+
+        </div>
+        <div class="col-2">
+            <p>Home / T-Shirt</p>
+            <h1>Tan Brown T-Shirt by HRX</h1>
+            <h4>$50.00</h4>
+            <select>
+                <option>Select Size</option> 
+                <option>XXL</option> 
+                <option>XL</option> 
+                <option>Large</option> 
+                <option>Medium</option>
+                <option>Small</option>   
+        </select>
+        <input type="number" value="1">
+        <a href="" class="btn">Add To Cart</a>
+        <h3>Product Details <i class="fa fa-indent"></i></h3>
+        <br>
+        <p>Proprietary composition of extra long and finest cotton. 
+            Sustainable dyes give fresh & long lasting colours with zero fading.
+            True to size. Select size based on your chest from the size chart.     
+            Ideal for lounging.</p>
+        </div>
+    </div>
+</div>
+ 
+ <!------------------- title ------------>
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+</div>
+
+
+
+
+ <!-- proucts -->
+<div class="small-container">
+ 
+
+
+
+
+
+    <!-- <div class="row row-2">
+<h2>All Products</h2> 
+<select>
+    <option > Default Shorting</option>
+    <option >  Sort by Price</option>
+    <option > Sort by popularity </option>
+    <option >  Sort by rating</option>
+    <option >  Sort by sale</option>
+</select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+        <img src="images/product1.jpg" alt="p1">
+        <h4>Red Plain Tshirt</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </div>
+        <p>$50.00</p>
+        </div>
+      
+        <div class="col-4">
+        <img src="images/product2.jpg" alt="p1">
+        <h4>women jeans</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </div>
+        <p>$300.00</p>
+        </div>
+         
+        <div class="col-4">
+        <img src="images/product3.jpg" alt="p1">
+        <h4>brown jacket</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </div>
+        <p>$240.00</p>
+        </div>
+           <div class="col-4">
+        <img src="images/product4.jpg" alt="p1">
+        <h4> Blue zipper jacket</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </div>
+        <p>$250.00</p>
+        </div>
+        <div class="col-4">
+        <img src="images/product5.jpg" alt="p1"  >
+        <h4> Blue printed shirt</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </div>
+        <p>$100.00</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/product5a.jpg" alt="p1"  >
+            <h4> Women Sweatshirt </h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                
+            </div>
+            <p>$200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product5b.jpg" alt="p1"  >
+                <h4> Women Cute Oversized Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    
+                </div>
+                <p>$150.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product5c.jpg" alt="p1"  >
+                    <h4>Men  Oversized Tees </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        
+                    </div>
+                    <p>$120.00</p>
+                    </div>
+    </div>
+ -->
+
+
+
+    <!-- latest products -->
+    
+    <div class="col-4">
+        <img src="images/product6.jpg" alt="p1"      height="180px" width="180px">
+        <h4> Women Sports Shoes </h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </div>
+        <p>220.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product7.jpg" alt="p1"   height="180px"  width="180px">
+            <h4> Men Sneakers </h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                
+            </div>
+            <p>$320.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product8.jpg" alt="p1" height="180px" width="180px" >
+                <h4> Striped joggers for women </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    
+                </div>
+                <p>$140.00</p>
+                </div><div class="col-4">
+                    <img src="images/product9.jpg" alt="p1" height="180px" width="180px" >
+                    <h4>Women Graphic tees  </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        
+                    </div>
+                    <p>$100.00</p>
+                    </div>
+                
+</div>
+
+
+<!-- offers -->
+ <!-- <div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/ex1.jpg" alt="exclusive" class="offer-img">
+            </div>
+            <div class="col-2">
+<p>Exclusively available on MyStore</p>
+<h1>Smart Band 4</h1>
+<small> Mi Band 6 1.56 Inch Full Touch Screen Fitness Band, 5ATM Waterproof, Wireless connection: Bluetooth 5.0 (Black)</small>
+<a href="" class="btn"> Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+ </div> -->
+
+<!-- testimonial -->
+
+<!-- <div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque magnam dicta necessitatibus, atque deleniti a.</p>
+                <div class="rating">
+
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                   
+                </div>
+                <img src="images/user1.jpg" width="70px" height="200px"
+                alt="">
+  <h3>Sean Parker</h3>
+            </div>
+
+            <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque magnam dicta necessitatibus, atque deleniti a.</p>
+ <div class="rating"> -->
+
+                <!-- <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+               
+            </div> -->
+            <!-- <img src="images/user2.jpg"  width="220px"
+            height="220px">
+<h3> Mabel joe</h3>
+        </div>
+        </div>
+
+
+      
+    </div>
+        </div>
+    </div>
+</div> --> 
+     
+
+<!------- footer ------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1"></div>
+            <h3>Download Our App</h3>
+            <p>Download App for Andoriod and ios mobile phone.</p>
+        </div>
+        <div class="footer-col-2">
+             <img src="" alt="">
+        </div>
+    </div>
+
+
+</div>
+
+<!-- brands -->
+  <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/godrej.png" alt="logo-godrej" height="80px">
+            </div>
+            <div class="col-5">
+                <img src="images/oppo.png" alt="logo-oppo" width="90px" height="60px">
+            </div>
+            <div class="col-5">
+                <img src="images/coco-cola.png" alt="logo- coco-cola.png" width="100" height="70px" >
+            </div>
+            <div class="col-5">
+                <img src="images/paypal.png" alt="logo-paypal"  height="80px">
+            </div>
+            <div class="col-5">
+                <img src="images/phillips.png" alt="logo-phillips" width="80px" height="80px">
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!----- footer---- -->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for android and ios mobile phone.</p>
+            <div class="app-logo">
+                <img src="images/app-store.png" alt="">
+                <img src="images/play-store.png" alt="">
+            </div>
+            </div>
+            <div class="footer-col-2">
+                 <img src="images/logo-mystore.png"  width="280px" alt="">
+                <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many. </p> 
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                 <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>return Policy</li>
+                    <li>Join Affiliate</li>
+                 </ul>
+            </div>
+            <div class="footer-col-4">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li> Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+
+            
+        </div>
+        <hr>
+        <p class="copyright"> Copyright 2022 - Anju Prajapati</p>
+    </div>
+  </div>
+    <!------ js for toggle menu ------>
+    <script>
+        var menuitems =documents.getElementById("");
+        menuitems.style.maxHeight="0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight="0px"){
+                menuitems.style.maxHeight="200px"
+            }
+            else{
+                menuitems.style.maxHeight="0px"
+            }
+        }
+    </script>  
+
+    <!------------ js for product gallery ------->
+    <script>
+        var ProudctImg= document.getElementById("ProudctImg");
+        var smallImg= document.getElementsByClassName("small-img");
+        smallImg[0].onclick=function() 
+        {
+            ProductImg.src=smallImg[0].src;
+        }
+ 
+        smallImg[1].onclick=function() 
+        {
+            ProductImg.src=smallImg[1].src;
+        }
+ 
+        smallImg[2].onclick=function() 
+        {
+            ProductImg.src=smallImg[2].src;
+        }
+        smallImg[3].onclick=function() 
+        {
+            ProductImg.src=smallImg[3].src;
+        }
+ 
+    </script>
+</body>
+</html>
